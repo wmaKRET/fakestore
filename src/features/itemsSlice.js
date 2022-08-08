@@ -10,4 +10,6 @@ export const itemsSlice = createSlice({
   reducers: {},
 });
 
+export const selectAllItems = state => state.items.items
+
 export default itemsSlice.reducer;
