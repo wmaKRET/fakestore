@@ -1,0 +1,22 @@
+.header {
+  padding: 0.5em;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  &__logo {
+    margin-left: 0.5em;
+    letter-spacing: 0.2rem;
+  }
+
+  &__sections {
+    margin-left: 3em;
+    display: flex;
+    gap: 1em;
+    flex: 1 1;
+  }
+
+  &__cart {
+    margin-right: 0.5em;
+  }
+}
