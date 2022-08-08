@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+
+    &__title {
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+
+    &__img {
+
+    }
+
+    &__panel {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__price {
+
+    }
+
+    &__menu {
+        display: flex;
+        gap: 0.5em;
+
+        &-remove {
+
+        }
+
+        &-amount {
+
+        }
+
+        &-add {
+
+        }
+    }
+}

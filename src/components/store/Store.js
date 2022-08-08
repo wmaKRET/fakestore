@@ -1,8 +1,14 @@
-import './store.scss'
+import "./store.scss"
+import StoreItem from "./StoreItem/StoreItem"
 
 const Store = () => {
   return (
-    <div className='container'>Store</div>
+    <div className="store">
+        <StoreItem />
+        <StoreItem />
+        <StoreItem />
+        <StoreItem />
+    </div>
   )
 }
 

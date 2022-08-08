@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
-import "./app.scss"
+import Store from "./components/store/Store";
+import "./app.scss";
 
 const App = () => {
   const xd = 1;
@@ -7,6 +8,9 @@ const App = () => {
   return (
     <>
       <Header />
+      <div className="container">
+        <Store />
+      </div>
     </>
   );
 };
