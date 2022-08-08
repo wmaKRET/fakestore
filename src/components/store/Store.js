@@ -1,5 +1,5 @@
 import "./store.scss"
-import StoreItem from "./StoreItem/StoreItem"
+import StoreItem from "./item/StoreItem"
 
 const Store = () => {
   return (
